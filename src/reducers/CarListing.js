@@ -1,11 +1,20 @@
 import { LISTING_ACTION_TYPES } from "../ActionTypes";
 
+/**
+ * Stored state of data regarding car listings
+ */
 const initalState = {
     list: [],
     currentListing: {},
     filter: ''
 }
 
+/**
+ * Redux Reducer managing the state of stored car listings
+ * @param {*} state stored state
+ * @param {*} action action type to take
+ * @returns requested data, depending on action type
+ */
 export const carListing = (state = initalState, action) => {
     switch (action.type) {
         case LISTING_ACTION_TYPES.FETCH_ALL:

@@ -9,6 +9,8 @@
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
     "axios": "^0.21.0",
+    "esdoc": "^1.1.0",
+    "esdoc-standard-plugin": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-redux": "^7.2.2",
@@ -17,7 +19,8 @@
     "react-toast-notifications": "^2.4.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "doc": "jsdoc -d docs --configure jsconf.json main.js"
   },
   "scripts": {
     "start": "react-scripts start",
