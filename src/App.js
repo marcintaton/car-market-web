@@ -15,6 +15,9 @@ import CarListingEdit from './components/CarListingEdit';
 import { ToastProvider } from 'react-toast-notifications';
 import Chat from './components/Chat';
 
+/**
+ * Renders application components, sets up routing
+ */
 function App() {
   return (
     <Provider store={store}>

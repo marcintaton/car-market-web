@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/**
+ * Root of the application
+ */
 ReactDOM.render(
   <App />,
   document.getElementById('root')
