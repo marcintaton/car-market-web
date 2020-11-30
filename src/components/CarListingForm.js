@@ -39,6 +39,9 @@ const initialFormValues = {
   descrition: ''
 }
 
+/**
+ * Render function for view displaying form for creating a new car listing
+ */
 const CarListingForm = ({ classes, ...props }) => {
 
   const { addToast } = useToasts()

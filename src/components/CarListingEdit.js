@@ -42,6 +42,9 @@ export const initialFormValues = {
   descrition: ''
 }
 
+/**
+ * Render function for view displaying form for editing a car listing
+ */
 const CarListingEdit = ({ classes, ...props }) => {
 
   const { addToast } = useToasts()

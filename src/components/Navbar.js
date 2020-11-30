@@ -21,6 +21,9 @@ const styles = theme => ({
   }
 })
 
+/**
+ * Render function for view displaying global navigation bar
+ */
 const Navbar = ({ classes, ...props }) => {
 
   useEffect(() => {

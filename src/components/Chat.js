@@ -16,6 +16,9 @@ const styles = theme => ({
   },
 })
 
+/**
+ * Render function for view displaying chat module
+ */
 const Chat = ({ classes, ...props }) => {
 
   // var commonDMs = props.dms.select(function (x) {

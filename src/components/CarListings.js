@@ -27,6 +27,9 @@ const styles = theme => ({
   }
 })
 
+/**
+ * Render function for view displaying all listings
+ */
 const CarListings = ({ classes, ...props }) => {
 
   useEffect(() => {

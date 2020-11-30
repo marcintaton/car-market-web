@@ -27,6 +27,9 @@ const styles = theme => ({
   }
 })
 
+/**
+ * Render function for view displaying details of a single car listing
+ */
 const ListingDetails = ({ classes, ...props }) => {
 
   const { addToast } = useToasts()

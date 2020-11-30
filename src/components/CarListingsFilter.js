@@ -18,6 +18,9 @@ const styles = theme => ({
   }
 });
 
+/**
+ * Render function for view displaying module for filtering offers
+ */
 const CarListingFilter = ({ classes, ...props }) => {
 
   const {

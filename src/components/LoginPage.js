@@ -21,7 +21,9 @@ const state = {
   isLoading: false
 }
 
-
+/**
+ * Render function for view displaying lgoin page and form
+ */
 const LoginPage = ({ classes, ...props }) => {
 
   const {

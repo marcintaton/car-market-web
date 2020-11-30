@@ -26,6 +26,9 @@ const state = {
   myOffers: []
 }
 
+/**
+ * Render function for view displaying details of a single user
+ */
 const UserDetails = ({ classes, ...props }) => {
 
   var splitAdress = window.location.href.split("/");
