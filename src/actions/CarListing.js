@@ -53,8 +53,8 @@ const formatData = data => ({
 /**
  * action that makes an API call 
  * to create new car listing row from passed data
- * @param {*} data 
- * @param {*} onSuccess 
+ * @param {*} data data source
+ * @param {*} onSuccess callback to execute on successful creation
  */
 export const create = (data, onSuccess) => dispatch => {
     data = formatData(data)

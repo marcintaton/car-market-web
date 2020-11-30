@@ -2,6 +2,9 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from "redux-thunk";
 import { reducers } from "../reducers";
 
+/**
+ * Create redux store, storing all combined reducer states
+ */
 export const store = createStore(
     reducers,
     compose(
