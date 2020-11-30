@@ -1,7 +1,6 @@
 import { LISTING_ACTION_TYPES } from "../ActionTypes";
 /**
  * Stored state of data regarding car listings
- *
  */
 const initalState = {
     list: [],
